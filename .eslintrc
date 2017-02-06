@@ -5,6 +5,7 @@
 		"no-tabs": "off",
 		"comma-dangle": "off",
 		"arrow-body-style": "off",
+		"max-len": "off",
 		"react/jsx-indent": ["error", 'tab'],
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
 	}

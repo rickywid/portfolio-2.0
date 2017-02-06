@@ -40,12 +40,6 @@ export default class App extends React.Component {
 
 		return (
 			<div className="row">
-				<div className="row">
-					<header className="header">
-						<h1 className="header__title">My Portfolio</h1>
-					</header>
-				</div>
-
 				<Profile />
 		
 				<div className="main">

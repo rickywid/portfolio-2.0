@@ -3,7 +3,7 @@ import { projects } from '../../data/data';
 import Project from './project';
 
 export default class Projects extends Component {
-	
+
 	_renderProject(data){
 		const id = data.id;
 		const name = data.name;
@@ -26,7 +26,6 @@ export default class Projects extends Component {
 
 		return (
 			<div className="projects">
-				<h2 className="projects__header">Projects</h2>
 				{projects.map((project)=> this._renderProject(project))}
 			</div>
 		)
