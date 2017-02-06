@@ -1,3 +1,24 @@
 .projects {
-	color: red;
+	@include make-row();
+}
+
+.projects__project {
+	@include make-lg-column(4);
+
+	margin-bottom: 38px;
+
+	&:hover {
+		cursor: pointer;
+		filter: grayscale(100%);
+	}
+
+	.projects__project-link {
+
+		&:visited,
+		&:active,
+		&:hover {
+			color: #000;
+			text-decoration: none;
+		}
+	}
 }
