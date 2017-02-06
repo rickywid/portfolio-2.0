@@ -7,6 +7,12 @@ import Projects from './projects';
 const App = () => {
 	return (
 		<div className="row">
+			<div className="row">
+				<header className="header">
+					<h1 className="header__title">My Portfolio</h1>
+				</header>
+			</div>
+
 			<Profile />
 	
 			<div className="main">
