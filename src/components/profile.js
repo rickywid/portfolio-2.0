@@ -30,7 +30,7 @@ export default class Profile extends Component {
 						</ul>
 					
 						<h5 className="profile__skills-header">I've experimented with</h5>
-						<ul className="profile__skills-secondary">
+						<ul className="profile__skills-secondary"> 
 							<li className="profile__skills-name">Laravel</li>
 							<li className="profile__skills-name">Ruby on Rails</li>
 							<li className="profile__skills-name">Wordpress</li>
