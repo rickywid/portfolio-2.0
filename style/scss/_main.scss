@@ -1,4 +1,6 @@
 .main {
+	@include make-sm-column(12);
+
 	@include make-lg-column(7);
 	@include make-lg-column-offset(1);
 }

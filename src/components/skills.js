@@ -7,7 +7,7 @@ export default class Skills extends Component {
 	render() {
 		return (
 			<div>
-				<Bar data={chartData.bar} width="600" height="250"/>
+				<Bar data={chartData.bar} options={chartData.bar.options} width="600" height="250"/>
 				<Pie data={chartData.pie} width="600" height="250"/>
 			</div>
 		)

@@ -3,9 +3,19 @@
 }
 
 .projects__project {
-	@include make-lg-column(4);
+	@include make-xs-column(12);
+	@include make-sm-column(4);
 
-	margin-bottom: 38px;
+	margin-bottom: 38px;	
+	text-align: center;
+
+	.img-responsive {
+		display: inline-block;
+	}
+
+	@media(min-width:768px){
+		display: block;	
+	}
 
 	&:hover {
 		cursor: pointer;
