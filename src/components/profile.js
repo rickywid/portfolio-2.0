@@ -36,7 +36,7 @@ export default class Profile extends Component {
 							<li className="profile__skills-name">Wordpress</li>
 							<li className="profile__skills-name">JavaScript ES6</li>
 							<li className="profile__skills-name">PHP/MySQL</li>
-							<li className="profile__skills-name">BEM</li>
+							<li className="profile__skills-name">BEM</li> 
 						</ul>	
 					</div>			
 				</div>
