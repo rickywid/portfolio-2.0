@@ -25,3 +25,24 @@
 	}
 }
 
+.profile__skills-wrap {
+	margin: 38px 0;
+	//text-align: left;
+}
+
+.profile__skills-header {
+	font-weight: bold;
+}
+
+.profile__skills-primary,
+.profile__skills-secondary {
+	margin: 0;
+	padding: 0;
+
+	.profile__skills-name {
+		display: inline-block;
+		margin: 0 5px;
+		padding: 0;
+		list-style: none;
+	}
+}

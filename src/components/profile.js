@@ -13,6 +13,29 @@ export default class Profile extends Component {
 						<a href="#" className="profile__social-link"><i className="fa fa-github" aria-hidden="true"></i></a>
 						<a href="#" className="profile__social-link"><i className="fa fa-envelope" aria-hidden="true"></i></a>
 					</div>
+
+					<div className="profile__skills-wrap">
+						<h5 className="profile__skills-header">I'm currently using</h5>
+						<ul className="profile__skills-primary">
+							<li className="profile__skills-name">HTML</li>
+							<li className="profile__skills-name">CSS/Sass</li>
+							<li className="profile__skills-name">JavaScript</li>
+							<li className="profile__skills-name">Responsive Design</li>
+							<li className="profile__skills-name">Bootstrap/Foundation</li>
+							<li className="profile__skills-name">ReactJS</li>
+							<li className="profile__skills-name">Git</li>
+							<li className="profile__skills-name">Adobe Photoshop</li>
+						</ul>
+					
+						<h5 className="profile__skills-header">I've experimented with</h5>
+						<ul className="profile__skills-secondary">
+							<li className="profile__skills-name">Laravel</li>
+							<li className="profile__skills-name">Ruby on Rails</li>
+							<li className="profile__skills-name">Wordpress</li>
+							<li className="profile__skills-name">JavaScript ES6</li>
+							<li className="profile__skills-name">BEM</li>
+						</ul>	
+					</div>			
 				</div>
 			</div>
 		);

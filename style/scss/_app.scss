@@ -1,0 +1,18 @@
+.topbar {
+	@include make-row();
+	padding-bottom: 20px;
+	
+	.topbar__inner {
+		@include make-sm-column(10);
+		@include make-sm-column-offset(1);
+	}
+}
+
+.topbar__time {
+	float: right;
+}
+
+.content {
+	@include make-row();
+	clear: both;
+}

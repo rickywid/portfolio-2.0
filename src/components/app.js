@@ -5,6 +5,7 @@ import Skills from './skills';
 import Projects from './projects';
 import Modal from './modal';
 import { projects } from '../../data/data';
+import moment from 'moment';
 
 export default class App extends React.Component {
 
@@ -18,6 +19,20 @@ export default class App extends React.Component {
 			modalIsOpen: false,
 			projectInfo: null
 		};
+
+		this._getUserLocation();
+
+	}
+
+	_getUserLocation() {
+		if ("geolocation" in navigator) {
+
+			navigator.geolocation.getCurrentPosition(function(position) {
+				console.log(position);
+			});
+		} else {
+			console.log('geolocation not available');
+		}		
 	}
 
 	_showModal(id) {
@@ -38,15 +53,20 @@ export default class App extends React.Component {
 							: '';
 
 		return (
-			<div className="row">
-				<Profile />
-
-				<div className="main">
-					<Projects showModal={this._showModal} />
-					<About />
-					
-					{ showModal }
+			<div>
+				<div className="topbar">
+					<div className="topbar__inner">
+						<span className="topbar__time">{moment().format('ll')}</span>
+					</div>
 				</div>
+				<div className="content">
+					<Profile />
+					<div className="main">
+						<Projects showModal={this._showModal} />					
+						{ showModal }
+					</div>
+				</div>				
+
 			</div>
 		);
 	}
