@@ -15,10 +15,16 @@
 	max-width: 500px;
 	padding: 20px;
 
+	.modal__header-wrap {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+ 
 	.modal__header {
-		float: left;
+		display: inline-block;
 		margin: 0;
-		margin-bottom: 20px;
+		margin-right: 20px;
+		padding-bottom: 10px;
+		vertical-align: middle;
 	}
 
 	.fa {
@@ -29,7 +35,24 @@
 		}
 	}
 
+	.modal__skills {
+		clear: both;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
 	.modal__description {
 		clear: both;
+		padding: 20px 0;
+	}
+
+	.modal__button {
+		float: right;
+		text-decoration: none;
+	}
+
+	.modal__button--code {
+		margin-right: 10px;
 	}
 }
+

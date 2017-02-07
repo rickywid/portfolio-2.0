@@ -9,11 +9,17 @@ export default class Modal extends React.Component {
 			<div className="modal">
 				<div className="modal__overlay">
 					<div className="modal__body">
-						<h1 className="modal__header">{ name }</h1>
-						<i className="fa fa-times" aria-hidden="true" onClick={ this.props.closeModal }></i>
+						<div className="modal__header-wrap">
+							<h1 className="modal__header">{ name }</h1>
+							<span className="modal__skills label label-info">{skill}</span>
+							<i className="fa fa-times" aria-hidden="true" onClick={ this.props.closeModal }></i>
+						</div>
+
 						<p className="modal__description">{ description }</p>
+						<a href={link.app} className="modal__button modal__button--demo">Live Demo</a> 
+						<a href={link.github} className="modal__button modal__button--code">View Code</a>
 					</div>
-				</div>
+				</div> 
 			</div>
 		)
 	}

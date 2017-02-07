@@ -1,7 +1,16 @@
 .profile {
 	@include make-sm-column(12);
 	@include make-lg-column(3);
+
 	text-align: center;
+}
+
+.profile__inner {
+	@media(min-width:1200px){
+	    left: 84px;
+	    max-width: 292px;
+		position: fixed;
+	}
 }
 
 .profile__img {

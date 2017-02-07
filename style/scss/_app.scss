@@ -1,18 +1,43 @@
 .topbar {
 	@include make-row();
+	font-weight: bold;
 	padding-bottom: 20px;
 	
 	.topbar__inner {
 		@include make-sm-column(10);
 		@include make-sm-column-offset(1);
-	}
-}
+		text-align: right;
 
-.topbar__time {
-	float: right;
+		.topbar__header {
+			display: none;
+			position: relative;
+					.box {
+			    background-color: transparent;
+			    border-right: 10px solid #ff5c5c;
+			    border-left: 10px solid transparent;
+			    border-top: 10px solid transparent;
+			    border-bottom: 10px solid transparent;
+			    transform: rotate(45deg);
+			    display: inline-block;
+				position: absolute;
+			    top: -10px;
+			    left: -25px;
+			}						
+
+			@media(min-width:1200px){
+				display: inline-block;
+			}		
+		}
+	}
 }
 
 .content {
 	@include make-row();
 	clear: both;
 }
+
+
+// @media(max-width:767px){}
+// @media(min-width:768px){}
+// @media(min-width:992px){}
+// @media(min-width:1200px){}

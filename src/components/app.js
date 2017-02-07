@@ -19,20 +19,6 @@ export default class App extends React.Component {
 			modalIsOpen: false,
 			projectInfo: null
 		};
-
-		this._getUserLocation();
-
-	}
-
-	_getUserLocation() {
-		if ("geolocation" in navigator) {
-
-			navigator.geolocation.getCurrentPosition(function(position) {
-				console.log(position);
-			});
-		} else {
-			console.log('geolocation not available');
-		}		
 	}
 
 	_showModal(id) {
@@ -45,6 +31,7 @@ export default class App extends React.Component {
 	}
 
 	render() {
+
 		const showModal = this.state.modalIsOpen ?
 			<Modal 
 				closeModal={this._closeModal}
@@ -56,7 +43,10 @@ export default class App extends React.Component {
 			<div>
 				<div className="topbar">
 					<div className="topbar__inner">
-						<span className="topbar__time">{moment().format('ll')}</span>
+						<h1 className="topbar__header">						
+							<div className="box"></div>
+							portfolio
+						</h1>
 					</div>
 				</div>
 				<div className="content">

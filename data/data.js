@@ -50,7 +50,6 @@ export const chartData = {
 	]
 };
 
-
 export const projects = [
 	{
 		id: 1,
@@ -61,10 +60,10 @@ export const projects = [
 			large: 'popcorn.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/react-popcorn',
+			github: 'https://github.com/rickywid/react-popcorn/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: '(In development) A ReactJS application that displays movie information provided by the themoviedb API.'
 	},
 	{
 		id: 2,
@@ -75,10 +74,10 @@ export const projects = [
 			large: 'weather.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/react-weather',
+			github: 'https://github.com/rickywid/react-weather/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A weather application created using React/Redux. Weather data was gathered from openweathermap.org\'s API. A chart is displayed to display the 5 day forecast as well as weather icons to provide further weather details.'
 	},
 	{
 		id: 3,
@@ -89,10 +88,10 @@ export const projects = [
 			large: 'reddit.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/reddit',
+			github: 'https://github.com/rickywid/reddit/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'I created a clone of the popular site Reddit. Several tools were used to create this site including React, React Router, Redux, Redux Promise, Webpack, MomentJS and Axios. Reddit\'s API was used to fetch data such as threads, comments and subreddits and other information.'
 	},
 	{
 		id: 4,
@@ -103,24 +102,24 @@ export const projects = [
 			large: 'frontrow.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/front-row',
+			github: 'https://github.com/rickywid/front-row/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A site built using ReactJS, Redux, React Router, Webpack and Bootstrap. The data was gathered using SeatGeek\'s API to display events, performers, venues and more. I used sites such as Ticketmaster, StubHub and the SeatGeek website as a guideline.'
 	},
 	{
 		id: 5,
 		name: 'Hangman',
-		skill: 'Vanilla JavaScript',
+		skill: 'JavaScript',
 		image: {
 			small: 'thumb-hangman.png',
 			large: 'hangman.png'
 			},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'https://rickywid.github.io/hangman_js/',
+			github: 'https://github.com/rickywid/hangman_js/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A hangman game created in vanilla Javascript. When the game loads, a random word will be selected from an array of categories. The user has a limited amount of guesses and can ask for a hint if required. The game ends if all the letters in the word is revealed else the user loses.'
 	},
 	{
 		id: 6,
@@ -131,10 +130,10 @@ export const projects = [
 			large: 'reactbin.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://reactbin.herokuapp.com/',
+			github: 'https://github.com/rickywid/hangman_js/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'This is an application built on the Meteor and React frameworks along with React-Router, React-CodeMirror and Markdown npm modules.'
 	},
 	{
 		id: 7,
@@ -142,13 +141,13 @@ export const projects = [
 		skill: 'Laravel',
 		image: {
 			small: 'thumb-laravel-cms.png',
-			large: 'laravel-cms.png'
+			large: 'https://github.com/rickywid/CMS_laravel'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://iblog-it.herokuapp.com/',
+			github: 'https://github.com/rickywid/CMS_laravel'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A content mangement system(CMS) I created using PHP\'s Laravel framework. The application includes user login/registration, password recovery, CRUD operations on users, posts, comments and images. All comments must be confirmed first by an Admin user before being displayed publicly and the Admin area is restricted only to Admin users and active users only.'
 	},
 	{
 		id: 8,
@@ -159,10 +158,10 @@ export const projects = [
 			large: 'pong.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'https://rickywid.github.io/pong_js',
+			github: 'https://github.com/rickywid/pong_js/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'The classic Pong game recreated in vanilla JS and HTML Canvas. This was a good intro project into game development for me. I learned more about different event handlers and the browser DOM object. This was also my first time using HTML5 Canvas to draw the various objects used in the game.'
 	},
 	{
 		id: 9,
@@ -173,10 +172,10 @@ export const projects = [
 			large: 'todo.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'https://rails-trackr.herokuapp.com/',
+			github: 'https://github.com/rickywid/rails_todo'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A Ruby on Rails project I built to get a basic understanding of the Rails MVC framework. By doing this project I learned more about the Model, View, Controller framework and how you can easily build and manage large applications.'
 	},
 	{
 		id: 10,
@@ -187,10 +186,10 @@ export const projects = [
 			large: 'springfield.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/springfield-today',
+			github: 'https://github.com/rickywid/springfield-today'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A hand coded news portal website based off of USA Today\'s design/layout. This project was just another way for me to practice my HTML/CSS skills without the use of any frameworks. All of the images were edited and resized using Adobe Photoshop. Also a JQuery plugin was used for the carousel portion. I spent a great amount of time on the layout and design to try to replicate it as closely as I can to the original.'
 	},
 	{
 		id: 11,
@@ -201,10 +200,10 @@ export const projects = [
 			large: 'travel.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/travel',
+			github: 'https://github.com/rickywid/travel'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'An image gallery written and designed in HTML/CSS. A JQuery plugin was used to create the scroll to anchor effect as well as the lightbox modal. Bootstrap\'s grid system was implemented for the general layout. All the photos were taken by me while I was traveling from 2012-2014.'
 	},
 	{
 		id: 12,
@@ -215,9 +214,9 @@ export const projects = [
 			large: 'pixelsketch.png'
 		},
 		link: {
-			app: '#',
-			github: '#'
+			app: 'http://rickywid.github.io/pixel-sketch',
+			github: 'https://github.com/rickywid/pixel-sketch/tree/gh-pages'
 		},
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius ut voluptate quaerat rerum expedita, saepe perferendis obcaecati pariatur, ratione aperiam maiores ducimus, minus magnam? Suscipit rerum sed error libero.'
+		description: 'A Javascript/JQuery web app that I created where I applied the skills I\'ve learned into a fun and interesting project. The app allows users to choose different grid sizes and select various colors to color the grid. This project was one of the course assignments over at the The Odin Project.'
 	}
 ]
