@@ -1,9 +1,0 @@
-@import '_bootstrap.scss';
-
-.left {
-        @include make-lg-column(2);
-}
-
-.right {
-	@include make-lg-column(8);
-}
