@@ -165,7 +165,7 @@ export const projects = [
 	},
 	{
 		id: 9,
-		name: 'Another To Do List',
+		name: 'Ruby To Do',
 		skill: 'Ruby on Rails',
 		image: {
 			small: 'thumb-todo.png',
