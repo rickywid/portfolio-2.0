@@ -33,6 +33,7 @@ export default class Profile extends Component {
 						<ul className="profile__skills-secondary"> 
 							<li className="profile__skills-name">Laravel</li>
 							<li className="profile__skills-name">Ruby on Rails</li>
+							<li className="profile__skills-name">MeteorJS</li>
 							<li className="profile__skills-name">Wordpress</li>
 							<li className="profile__skills-name">JavaScript ES6</li>
 							<li className="profile__skills-name">PHP/MySQL</li>
