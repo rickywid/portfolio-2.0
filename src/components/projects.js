@@ -21,7 +21,7 @@ export default class Projects extends Component {
 					showModal={this.props.showModal}
 		/>
 	}
-
+ 
 	render() {
 
 		return (
