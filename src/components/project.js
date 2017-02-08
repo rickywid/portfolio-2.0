@@ -6,9 +6,7 @@ export default class Project extends Component {
 		const smImg = 'style/img/portfolio/sm';
 		return (
 			<div className="projects__project" onClick={this.props.showModal.bind(this, this.props.id)} >
-				<a className="projects__project-link" href="#">
-					<img className="projects__project-img img-responsive" src={`${smImg}/${this.props.image.small}`} alt=""/>
-				</a>
+				<img className="projects__project-img img-responsive" src={`${smImg}/${this.props.image.small}`} alt=""/>
 			</div>
 		);
 	}
