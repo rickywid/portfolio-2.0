@@ -4,7 +4,7 @@ export default class Profile extends Component {
 	render() {
 		return (
 			<div className="profile">
-				<div className="profile__inner">
+				<div className="animated bounceInLeft profile__inner">
 					<img src="style/img/team/profile1.png" className="profile__img" height="150px" alt="" />
 					<h3 className="profile__name">Ricky JW</h3>
 					<p className="profile__title">Web Developer</p>

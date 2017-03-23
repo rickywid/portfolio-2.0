@@ -25,7 +25,7 @@ export default class Projects extends Component {
 	render() {
 
 		return (
-			<div className="animated fadeIn projects">
+			<div className="animated bounceInDown projects">
 				{projects.map((project)=> this._renderProject(project))}
 			</div>
 		)

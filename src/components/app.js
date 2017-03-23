@@ -41,7 +41,7 @@ export default class App extends React.Component {
 
 		return (
 			<div>
-				<div className="topbar">
+				<div className="animated bounceInDown topbar">
 					<div className="topbar__inner">
 						<h1 className="topbar__header">						
 							<div className="box"></div>
