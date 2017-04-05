@@ -167,6 +167,6 @@ export const projects = [
 			app: 'http://rickywid.github.io/pixel-sketch',
 			github: 'https://github.com/rickywid/pixel-sketch/tree/gh-pages'
 		},
-		description: 'A Javascript/JQuery web app that I created where I applied the skills I\'ve learned into a fun and interesting project. The app allows users to choose different grid sizes and select various colors to color the grid. This project was one of the course assignments over at the The Odin Project.'
+		description: 'This was my first project using HTML/CSS, JavaScript + jQuery. I learned the basics of web development such as the HTML DOM, event handling, user input and more.'
 	}
 ]
