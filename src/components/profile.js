@@ -11,15 +11,16 @@ export default class Profile extends Component {
 					<div className="profile__social-links">
 						<a href="https://www.linkedin.com/in/ricky-widjaja-791059b6" className="profile__social-link"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
 						<a href="http://github.com/rickywid" className="profile__social-link"><i className="fa fa-github" aria-hidden="true"></i></a>
+						<a href="http://codepen.io/rickyjw" className="profile__social-link"><i className="fa fa-codepen" aria-hidden="true"></i></a>
 						<a href="mailto:rickywid@hotmail.com" className="profile__social-link"><i className="fa fa-envelope" aria-hidden="true"></i></a>
 					</div>
 
 					<div className="profile__skills-wrap">
 						<h5 className="profile__skills-header">I'm currently using</h5>
 						<ul className="profile__skills-primary">
-							<li className="profile__skills-name">HTML</li>
-							<li className="profile__skills-name">CSS/Sass</li>
-							<li className="profile__skills-name">JavaScript</li>
+							<li className="profile__skills-name">HTML5</li>
+							<li className="profile__skills-name">CSS3/Sass</li>
+							<li className="profile__skills-name">JavaScript/ES6</li>
 							<li className="profile__skills-name">Responsive Design</li>
 							<li className="profile__skills-name">Bootstrap/Foundation</li>
 							<li className="profile__skills-name">ReactJS</li>
@@ -35,11 +36,12 @@ export default class Profile extends Component {
 							<li className="profile__skills-name">Ruby on Rails</li>
 							<li className="profile__skills-name">MeteorJS</li>
 							<li className="profile__skills-name">Wordpress</li>
-							<li className="profile__skills-name">JavaScript ES6</li>
-							<li className="profile__skills-name">PHP/MySQL</li>
-							<li className="profile__skills-name">BEM</li> 
+							<li className="profile__skills-name">Node/Express</li>
+							<li className="profile__skills-name">Flexbox</li>
+							<li className="profile__skills-name">HTML5 Canvas</li>
+							<li className="profile__skills-name">Web Sockets</li>
 						</ul>	
-					</div>			
+					</div>	
 				</div>
 			</div>
 		);
