@@ -24,6 +24,7 @@ export default class Profile extends Component {
 							<li className="profile__skills-name">Responsive Design</li>
 							<li className="profile__skills-name">Bootstrap/Foundation</li>
 							<li className="profile__skills-name">ReactJS</li>
+							<li className="profile__skills-name">3rd Party API's</li>
 							<li className="profile__skills-name">Git</li>
 							<li className="profile__skills-name">Sublime Text</li>
 							<li className="profile__skills-name">Ubuntu</li>
