@@ -163,34 +163,34 @@ export const projects = [
 		},
 		description: 'The classic Pong game recreated in vanilla JS and HTML Canvas. This was a good intro project into game development for me. I learned more about different event handlers and the browser DOM object. This was also my first time using HTML5 Canvas to draw the various objects used in the game.'
 	},
-	{
-		id: 9,
-		name: 'Another To Do List',
-		skill: 'Ruby on Rails',
-		image: {
-			small: 'thumb-todo.png',
-			large: 'todo.png'
-		},
-		link: {
-			app: 'https://rails-trackr.herokuapp.com/',
-			github: 'https://github.com/rickywid/rails_todo'
-		},
-		description: 'A Ruby on Rails project I built to get a basic understanding of the Rails MVC framework. By doing this project I learned more about the Model, View, Controller framework and how you can easily build and manage large applications.'
-	},
-	{
-		id: 10,
-		name: 'Springfield Today',
-		skill: 'HTML / CSS',
-		image: {
-			small: 'thumb-springfield.png',
-			large: 'springfield.png'
-		},
-		link: {
-			app: 'http://rickywid.github.io/springfield-today',
-			github: 'https://github.com/rickywid/springfield-today'
-		},
-		description: 'A hand coded news portal website based off of USA Today\'s design/layout. This project was just another way for me to practice my HTML/CSS skills without the use of any frameworks. All of the images were edited and resized using Adobe Photoshop. Also a JQuery plugin was used for the carousel portion. I spent a great amount of time on the layout and design to try to replicate it as closely as I can to the original.'
-	},
+	// {
+	// 	id: 9,
+	// 	name: 'Another To Do List',
+	// 	skill: 'Ruby on Rails',
+	// 	image: {
+	// 		small: 'thumb-todo.png',
+	// 		large: 'todo.png'
+	// 	},
+	// 	link: {
+	// 		app: 'https://rails-trackr.herokuapp.com/',
+	// 		github: 'https://github.com/rickywid/rails_todo'
+	// 	},
+	// 	description: 'A Ruby on Rails project I built to get a basic understanding of the Rails MVC framework. By doing this project I learned more about the Model, View, Controller framework and how you can easily build and manage large applications.'
+	// },
+	// {
+	// 	id: 10,
+	// 	name: 'Springfield Today',
+	// 	skill: 'HTML / CSS',
+	// 	image: {
+	// 		small: 'thumb-springfield.png',
+	// 		large: 'springfield.png'
+	// 	},
+	// 	link: {
+	// 		app: 'http://rickywid.github.io/springfield-today',
+	// 		github: 'https://github.com/rickywid/springfield-today'
+	// 	},
+	// 	description: 'A hand coded news portal website based off of USA Today\'s design/layout. This project was just another way for me to practice my HTML/CSS skills without the use of any frameworks. All of the images were edited and resized using Adobe Photoshop. Also a JQuery plugin was used for the carousel portion. I spent a great amount of time on the layout and design to try to replicate it as closely as I can to the original.'
+	// },
 	{
 		id: 11,
 		name: 'Travel Gallery',
@@ -204,19 +204,19 @@ export const projects = [
 			github: 'https://github.com/rickywid/travel'
 		},
 		description: 'An image gallery written and designed in HTML/CSS. A JQuery plugin was used to create the scroll to anchor effect as well as the lightbox modal. Bootstrap\'s grid system was implemented for the general layout. All the photos were taken by me while I was traveling from 2012-2014.'
-	},
-	{
-		id: 12,
-		name: 'Pixel Sketch',
-		skill: 'HTML / CSS / JQuery',
-		image: {
-		small: 'thumb-pixelsketch.png',
-			large: 'pixelsketch.png'
-		},
-		link: {
-			app: 'http://rickywid.github.io/pixel-sketch',
-			github: 'https://github.com/rickywid/pixel-sketch/tree/gh-pages'
-		},
-		description: 'A Javascript/JQuery web app that I created where I applied the skills I\'ve learned into a fun and interesting project. The app allows users to choose different grid sizes and select various colors to color the grid. This project was one of the course assignments over at the The Odin Project.'
 	}
+	// {
+	// 	id: 12,
+	// 	name: 'Pixel Sketch',
+	// 	skill: 'HTML / CSS / JQuery',
+	// 	image: {
+	// 	small: 'thumb-pixelsketch.png',
+	// 		large: 'pixelsketch.png'
+	// 	},
+	// 	link: {
+	// 		app: 'http://rickywid.github.io/pixel-sketch',
+	// 		github: 'https://github.com/rickywid/pixel-sketch/tree/gh-pages'
+	// 	},
+	// 	description: 'A Javascript/JQuery web app that I created where I applied the skills I\'ve learned into a fun and interesting project. The app allows users to choose different grid sizes and select various colors to color the grid. This project was one of the course assignments over at the The Odin Project.'
+	// }
 ]
